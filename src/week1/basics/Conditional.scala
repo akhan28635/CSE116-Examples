@@ -3,14 +3,14 @@ package week1.basics
 object Conditional {
 
   def computeSize(input: Double): String = {
-    val large: Double = 60.0
-    val medium: Double = 30.0
+    var large: Double = 60.0
+    var medium: Double = 30.0
     if (input >= large) {
-      "large"
+      "1"
     } else if (input >= medium) {
-      "medium"
+      "2"
     } else {
-      "small"
+      "3"
     }
   }
 
